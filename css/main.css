@@ -1,0 +1,22 @@
+body {background-color: #ecf0f1;
+	text-align: center;
+	font-family: 'Open Sans';}
+
+.main {background-color: rgba(192, 57, 43, 0.83);
+		margin-top: 110px;
+		min-width: 1200px;
+		height: 500px;}
+
+input {border-radius: 7px;
+		width: 262px;
+		height: 40px;
+		border-style: none;
+		font-family: 'Open Sans';
+		font-size: 18px;}
+
+.add {padding-top: 30px;}	
+
+#good {font-size: 18px;
+		color: #2c3e50;}
+
+.items {display: none;}

@@ -25,7 +25,6 @@ input {border-radius: 7px;
 #button {display: -webkit-inline-box;
 		margin: 7px;
 		padding: 9px;
-		border-style: dotted;
 		border-radius: 7px;
 		text-align: center;
 		color: #2c3e50;
@@ -44,7 +43,7 @@ input {border-radius: 7px;
 		color: #2c3e50;
 		padding-left: 10px;}
 
-.items {font-size: 30px;
+.items {font-size: 20px;
 		list-style-type: none;
 		padding: inherit;
 		color: #34495E;
@@ -52,4 +51,8 @@ input {border-radius: 7px;
 
 
 li {padding: 10px;
+	background-color: rgba(41, 128, 185, 0.79);
+	border-radius: 7px;
+	margin: 10px;
+	width: 230px;
 	/*display:none;*/}

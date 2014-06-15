@@ -1,33 +1,45 @@
 body {background-color: #ecf0f1;
-	text-align: center;
 	font-family: 'Open Sans';}
 
 header {font-size: -webkit-xxx-large;
-		margin-top: 40px;}
-
+		margin-top: 40px;
+		color: #2c3e50;
+		padding-left: 10px;}
 
 .main {background-color: rgba(241, 196, 15, 0.6);
 		margin-top: 40px;
 		min-width: 1200px;
-		height: 700px;}
+		height: 800px;}
 
 input {border-radius: 7px;
 		width: 262px;
 		height: 40px;
 		border-style: none;
 		font-family: 'Open Sans';
-		font-size: 18px;}
-
-.add {padding-top: 30px;}	
-
-#good {font-size: 20px;
-		color: #2c3e50;
+		font-size: 18px;
 		}
 
-.items {font-size: 20px;
+.add {padding-top: 30px;
+	padding-left: 10px;}	
+
+#instruct1 {font-size: 20px;
+		color: #2c3e50;
+		padding-left: 10px;}
+
+#instruct2 {font-size:17px;
+		color: #2c3e50;
+		padding-left: 10px;}
+
+#instruct3 {font-size:17px;
+		color: #2c3e50;
+		padding-left: 10px;}
+
+.items {font-size: 30px;
 		list-style-type: none;
-		padding: inherit;}
+		padding: inherit;
+		color: #34495E;
+		padding-left: 10px;}
 
 
 li {padding: 10px;
-	display:none;}
+	/*display:none;*/}

@@ -20,9 +20,9 @@ input {border-radius: 7px;
 		}
 
 .add {padding-top: 30px;
-	padding-left: 10px;}
+	padding-left: 20px;}
 
-#button {display: -webkit-inline-box;
+#btnName {display: -webkit-inline-box;
 		margin: 7px;
 		padding: 9px;
 		border-radius: 7px;
@@ -33,21 +33,21 @@ input {border-radius: 7px;
 
 #instruct1 {font-size: 20px;
 		color: #2c3e50;
-		padding-left: 10px;}
+		padding-left: 20px;}
 
 #instruct2 {font-size:17px;
 		color: #2c3e50;
-		padding-left: 10px;}
+		padding-left: 20px;}
 
 #instruct3 {font-size:17px;
 		color: #2c3e50;
-		padding-left: 10px;}
+		padding-left: 20px;}
 
-.items {font-size: 20px;
+.justList {font-size: 20px;
 		list-style-type: none;
 		padding: inherit;
 		color: #34495E;
-		padding-left: 10px;}
+		padding-left: 20px;}
 
 
 li {padding: 10px;
@@ -55,4 +55,10 @@ li {padding: 10px;
 	border-radius: 7px;
 	margin: 10px;
 	width: 230px;
-	/*display:none;*/}
+	}
+
+li.button {float: right;
+background-color: rgba(41, 128, 185, 0);
+border-style: none;
+font-size: 18px;
+font-style: inherit;}

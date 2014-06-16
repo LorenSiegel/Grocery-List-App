@@ -1,10 +1,8 @@
 $(document).ready(function() {
 
-//Allows Enter Keystroke
-  //$('#entry').mouseenter(function() {
-    //alert('mouse entered .ryu div');
+//ADD Button with Remove Button
 $('#btnName').click(function(){
-    var text = $('#inputName').val() + '<button>x</button>';
+    var text = $('#inputName').val() + '<button id="x">x</button>';
     if(text.length){
         $('<li />', {html: text}).appendTo('ul.justList')
     }

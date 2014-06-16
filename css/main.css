@@ -11,7 +11,7 @@ header {font-size: -webkit-xxx-large;
 		min-width: 1200px;
 		height: 800px;}
 
-input {border-radius: 7px;
+#inputName {border-radius: 7px;
 		width: 262px;
 		height: 40px;
 		border-style: none;
@@ -63,3 +63,5 @@ li {padding: 10px;
 	border-style: none;
 	font-size: 18px;
 	font-style: inherit;}
+
+.strike {text-decoration: line-through;}

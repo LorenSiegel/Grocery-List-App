@@ -10,7 +10,11 @@ $('#btnName').click(function(){
 
 $('ul').on('click','button' , function(el){
     $(this).parent().remove()
-});
+ });
+
+$("ul").click(function(){
+	$(this).find("li").wrap("<strike>");
+})
 });
   
 	

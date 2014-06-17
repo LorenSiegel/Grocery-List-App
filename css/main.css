@@ -62,6 +62,9 @@ li {padding: 10px;
 	background-color: rgba(41, 128, 185, 0);
 	border-style: none;
 	font-size: 18px;
-	font-style: inherit;}
+	font-style: inherit;
+	color: #2c3e50;}
 
-.strike {text-decoration: line-through;}
+#check {float: left;
+		margin: inherit;
+		outline-color: #2c3e50;}

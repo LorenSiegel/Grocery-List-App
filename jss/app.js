@@ -10,11 +10,11 @@ $('ul').on('click','button' , function(el){
     $(this).parent().remove()
  });
 
-$('.justList input').on('click', function () {
+$('input#check').on('click', function() {
   var $li = $(this).closest('li');
   $li.wrap('<strike>')
   console.log($li);
-  });
+	});
 });
 
 

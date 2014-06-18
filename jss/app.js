@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 //ADD Button with Remove Button
 $('#btnName').click(function(){
     var text = $('#inputName').val() + '<button id="x">x</button>'+'<input id="check" type="checkbox">';
@@ -21,7 +20,7 @@ $('.justList input').on('click', function () {
 
   
 	
-//event that marks throug a list item 
+
 
 
 

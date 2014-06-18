@@ -1,6 +1,4 @@
 $(document).ready(function() {
-
-//ADD Button with Remove Button
 $('#btnName').click(function(){
     var text = $('#inputName').val() + '<button id="x">x</button>'+'<input id="check" type="checkbox">';
     if(text.length){
@@ -18,10 +16,6 @@ $('.justList input').on('click', function () {
   console.log($li);
   });
 });
-
-  
-	
-//event that marks throug a list item 
 
 
 

@@ -64,4 +64,6 @@ li {padding: 10px;
 	font-size: 18px;
 	font-style: inherit;}
 
-.strike {text-decoration: line-through;}
+#check {float: left;
+		margin: inherit;
+		outline-color: #2c3e50;}

@@ -10,7 +10,8 @@ $('ul').on('click','button' , function(el){
     $(this).parent().remove()
  });
 $(".justList").on("click","input",function(){
-	alert("strike")
+	var $li = $(this).closest("li");
+	$li.addClass("strike");
 });
 });
 

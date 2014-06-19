@@ -9,12 +9,9 @@ $('#btnName').click(function(){
 $('ul').on('click','button' , function(el){
     $(this).parent().remove()
  });
-
-$('input#check').on('click', function() {
-  var $li = $(this).closest('li');
-  $li.wrap('<strike>')
-  console.log($li);
-	});
+$(".justList").on("click","input",function(){
+	alert("strike")
+});
 });
 
 

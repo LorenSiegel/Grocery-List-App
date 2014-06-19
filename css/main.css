@@ -66,8 +66,7 @@ li {padding: 10px;
 
 #check {float: left;
 		margin: inherit;
-<<<<<<< HEAD
 		outline-color: #2c3e50;}
-=======
-		outline-color: #2c3e50;}
->>>>>>> FETCH_HEAD
+
+.strike {text-decoration: line-through;}
+

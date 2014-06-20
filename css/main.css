@@ -66,12 +66,10 @@ li {padding: 10px;
 	color: #2c3e50;}
 
 #check {float: left;
-		margin: inherit;
-<<<<<<< HEAD
-		outline-color: #2c3e50;}
+	margin: inherit;
+	outline-color: #2c3e50;}
 
 .strike {text-decoration: line-through;}
 
-=======
-		outline-color: #2c3e50;}
->>>>>>> master
+
+	

@@ -68,3 +68,4 @@ li {padding: 10px;
 #check {float: left;
 		margin: inherit;
 		outline-color: #2c3e50;}
+.strike {text-decoration: line-through;}

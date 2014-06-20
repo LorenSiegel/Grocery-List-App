@@ -1,5 +1,4 @@
 $(document).ready(function() {
-//ADD Button with Remove Button
 $('#btnName').click(function(){
     var text = $('#inputName').val() + '<button id="x">x</button>'+'<input id="check" type="checkbox">';
     if(text.length){
@@ -10,11 +9,10 @@ $('#btnName').click(function(){
 $('ul').on('click','button' , function(el){
     $(this).parent().remove()
  });
-$('.justList input').on('click', function () {
-  var $li = $(this).closest('li');
-  $li.wrap('<strike>')
-  console.log($li);
-  });
+$(".justList").on("click","input",function(){
+	var $li = $(this).closest("li");
+	$li.addClass("strike");
+});
 });
 
   

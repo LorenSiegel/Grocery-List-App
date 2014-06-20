@@ -17,5 +17,3 @@ $(".justList").on("click","input",function(){
 
 
 
-
-

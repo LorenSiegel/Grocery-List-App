@@ -62,11 +62,16 @@ li {padding: 10px;
 	background-color: rgba(41, 128, 185, 0);
 	border-style: none;
 	font-size: 18px;
-	font-style: inherit;}
+	font-style: inherit;
+	color: #2c3e50;}
 
 #check {float: left;
 		margin: inherit;
+<<<<<<< HEAD
 		outline-color: #2c3e50;}
 
 .strike {text-decoration: line-through;}
 
+=======
+		outline-color: #2c3e50;}
+>>>>>>> master
